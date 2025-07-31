@@ -1,0 +1,85 @@
+# === Data configuration ===
+data:
+  corpus_0:
+    path_src: "/home/pourmost/Redo/RANLP/data/medical/train.src.tok.bpe_medical"
+    path_tgt: "/home/pourmost/Redo/RANLP/data/medical/train.tgt.tok.bpe_medical"
+    weight: 1
+  valid:
+    path_src: "/home/pourmost/Redo/RANLP/data/medical/dev.src.tok.bpe_medical"
+    path_tgt: "/home/pourmost/Redo/RANLP/data/medical/dev.tgt.tok.bpe_medical"
+
+update_vocab: true
+share_vocab: false
+train_from: "/home/pourmost/Redo/RANLP/Models/wmt_base/model_step_48000.pt"
+
+# === Vocabulary paths ===
+src_vocab: "/home/pourmost/Redo/RANLP/Vocabs/vocab_from-medical-on-wmt.en.src"
+tgt_vocab: "/home/pourmost/Redo/RANLP/Vocabs/vocab_from-medical-on-wmt.de.tgt"
+src_vocab_size: 33999
+tgt_vocab_size: 32945
+
+# === Model output ===
+save_model: "/home/pourmost/Redo/RANLP/Models/C4_vocab_from-wmt-on-medical/model"
+save_checkpoint_steps: 2000
+keep_checkpoint: 3
+
+# === Logging ===
+log_file: "/home/pourmost/Redo/RANLP/log/training_logs/C4_vocab_from-wmt-on-medical.log"
+log_file_level: "INFO"
+tensorboard: true
+tensorboard_log_dir: "/home/pourmost/Redo/RANLP/Tensorboard/C4_vocab_from-wmt-on-medical"
+
+# === Training steps ===
+train_steps: 200000
+valid_steps: 1000
+report_every: 100
+early_stopping: 3
+early_stopping_criteria: [accuracy]
+reset_optim: "states"
+
+# === Hardware setup ===
+world_size: 1
+gpu_ranks: [0]
+num_workers: 10
+
+# === Batching ===
+batch_type: "tokens"
+batch_size: 10240
+valid_batch_size: 2048
+accum_count: [4]
+accum_steps: [0]
+normalization: "tokens"
+
+# === Optimization ===
+model_dtype: "fp32"
+optim: "adam"
+learning_rate: 2.0
+warmup_steps: 8000
+decay_method: "noam"
+adam_beta1: 0.9
+adam_beta2: 0.998
+max_grad_norm: 0.0
+label_smoothing: 0.1
+
+# === Model architecture ===
+model_type: text
+model_task: seq2seq
+encoder_type: transformer
+decoder_type: transformer
+position_encoding: false
+max_relative_positions: -1
+param_init: 0
+param_init_glorot: true
+word_vec_size: 512
+hidden_size: 512
+enc_layers: 6
+dec_layers: 6
+heads: 8
+transformer_ff: 2048
+dropout: [0.1]
+attention_dropout: [0.1]
+
+# === Evaluation ===
+valid_metrics: [BLEU]
+scoring_debug: true
+dump_preds: true
