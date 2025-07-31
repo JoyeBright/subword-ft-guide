@@ -1,0 +1,9 @@
+model: /home/pourmost/Redo/RANLP/Models/wmt_base/model_step_48000.pt
+src: /home/pourmost/Redo/RANLP/data/wmt/test.src.tok.bpe_wmt
+output: /home/pourmost/Redo/RANLP/Models_wmt_pred/C0_pred/pred_C0
+n_best: 1
+min_length: 0
+max_length: 150
+beam_size: 6
+verbose: true
+report_time: true

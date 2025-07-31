@@ -1,0 +1,9 @@
+model: /home/pourmost/Redo/RANLP/Models/C5_vocab_from-medical_combined-on-medical/model_step_56000.pt
+src: /home/pourmost/Redo/RANLP/data/medical/test.src.tok.bpe_medical
+output: /home/pourmost/Redo/RANLP/Models/C5_pred/pred_C5
+n_best: 1
+min_length: 0
+max_length: 150
+beam_size: 6
+verbose: true
+report_time: true

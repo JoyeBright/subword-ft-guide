@@ -1,0 +1,9 @@
+model: /home/pourmost/Redo/RANLP/Models/C6_vocab_from-medical-on-medical/model_step_78000.pt
+src: /home/pourmost/Redo/RANLP/data/wmt/test.src.tok.bpe_wmt
+output: /home/pourmost/Redo/RANLP/Models_wmt_pred/C6_pred/pred_C6
+n_best: 1
+min_length: 0
+max_length: 150
+beam_size: 6
+verbose: true
+report_time: true
