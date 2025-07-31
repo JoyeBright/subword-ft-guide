@@ -1,0 +1,16 @@
+save_data: "/home/pourmost/Redo/RANLP/written/vocab_from-wmt-on-medical"
+
+src_vocab: "/home/pourmost/Redo/RANLP/Vocabs/vocab_from-wmt-on-medical.en.src"
+tgt_vocab: "/home/pourmost/Redo/RANLP/Vocabs/vocab_from-wmt-on-medical.de.tgt"
+share_vocab: false
+overwrite: true
+
+data:
+    corpus_0:
+        path_src: "/home/pourmost/Redo/RANLP/data/medical/train.src.tok.bpe_wmt"
+        path_tgt: "/home/pourmost/Redo/RANLP/data/medical/train.tgt.tok.bpe_wmt"
+
+src_seq_length: 150
+tgt_seq_length: 150
+skip_empty_level: silent
+n_sample: -1
