@@ -1,0 +1,59 @@
+=== BPE Learning Log Thu Jul 17 23:34:46 CEST 2025 ===
+# Inspired by Ding et al. (2019) and Adlaon & Marcos (2024)
+# Ding et al.: smaller vocab favored for Transformers; large vocab can reduce BLEU by ~3–4 pts (899282<arxiv.org/abs/1905.10453899282)
+# Adlaon & Marcos: 2–8k merges perform best for low-resource datasets (899282aclanthology.org/2024.findings-emnlp.860899282)
+
+## Domain: wmt | Side: src
+Dataset size (lines): 12684566
+Merge operations chosen: 50000
+Input file: data/wmt/train.src.tok
+Output file: data/BPE_models/wmt.bpe.src
+-------------------------------
+🧠 Learning BPE: data/wmt/train.src.tok → data/BPE_models/wmt.bpe.src (merges=50000)
+✅ Completed wmt src with 50000 merges
+
+## Domain: wmt | Side: tgt
+Dataset size (lines): 12684566
+Merge operations chosen: 50000
+Input file: data/wmt/train.tgt.tok
+Output file: data/BPE_models/wmt.bpe.tgt
+-------------------------------
+🧠 Learning BPE: data/wmt/train.tgt.tok → data/BPE_models/wmt.bpe.tgt (merges=50000)
+✅ Completed wmt tgt with 50000 merges
+
+## Domain: medical | Side: src
+Dataset size (lines): 248099
+Merge operations chosen: 30000
+Input file: data/medical/train.src.tok
+Output file: data/BPE_models/medical.bpe.src
+-------------------------------
+🧠 Learning BPE: data/medical/train.src.tok → data/BPE_models/medical.bpe.src (merges=30000)
+✅ Completed medical src with 30000 merges
+
+## Domain: medical | Side: tgt
+Dataset size (lines): 248099
+Merge operations chosen: 30000
+Input file: data/medical/train.tgt.tok
+Output file: data/BPE_models/medical.bpe.tgt
+-------------------------------
+🧠 Learning BPE: data/medical/train.tgt.tok → data/BPE_models/medical.bpe.tgt (merges=30000)
+✅ Completed medical tgt with 30000 merges
+
+## Domain: medical_combined | Side: src
+Dataset size (lines): 25369132
+Merge operations chosen: 50000
+Input file: data/medical_combined/train.src.tok
+Output file: data/BPE_models/medical_combined.bpe.src
+-------------------------------
+🧠 Learning BPE: data/medical_combined/train.src.tok → data/BPE_models/medical_combined.bpe.src (merges=50000)
+✅ Completed medical_combined src with 50000 merges
+
+## Domain: medical_combined | Side: tgt
+Dataset size (lines): 25369132
+Merge operations chosen: 50000
+Input file: data/medical_combined/train.tgt.tok
+Output file: data/BPE_models/medical_combined.bpe.tgt
+-------------------------------
+🧠 Learning BPE: data/medical_combined/train.tgt.tok → data/BPE_models/medical_combined.bpe.tgt (merges=50000)
+✅ Completed medical_combined tgt with 50000 merges
+

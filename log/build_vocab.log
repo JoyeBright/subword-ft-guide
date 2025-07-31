@@ -1,0 +1,112 @@
+[2025-07-18 12:30:24] Building vocab: vocab_from-wmt-on-wmt
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 12:31:34,356 INFO] Counter vocab from -1 samples.
+[2025-07-18 12:31:34,356 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 12:36:14,608 INFO] Counters src: 57385
+[2025-07-18 12:36:14,615 INFO] Counters tgt: 55743
+✅ Finished: vocab_from-wmt-on-wmt
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-wmt-on-medical_combined
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 12:36:18,121 INFO] Counter vocab from -1 samples.
+[2025-07-18 12:36:18,121 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 12:46:32,205 INFO] Counters src: 57419
+[2025-07-18 12:46:32,211 INFO] Counters tgt: 55765
+✅ Finished: vocab_from-wmt-on-medical_combined
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-wmt-on-medical
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 12:46:35,521 INFO] Counter vocab from -1 samples.
+[2025-07-18 12:46:35,521 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 12:46:41,918 INFO] Counters src: 25870
+[2025-07-18 12:46:41,918 INFO] Counters tgt: 30537
+✅ Finished: vocab_from-wmt-on-medical
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-medical-on-wmt
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 12:46:44,967 INFO] Counter vocab from -1 samples.
+[2025-07-18 12:46:44,968 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 12:52:06,248 INFO] Counters src: 33999
+[2025-07-18 12:52:06,260 INFO] Counters tgt: 32945
+✅ Finished: vocab_from-medical-on-wmt
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-medical-on-medical_combined
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 12:52:09,275 INFO] Counter vocab from -1 samples.
+[2025-07-18 12:52:09,275 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 13:02:26,553 INFO] Counters src: 36725
+[2025-07-18 13:02:26,558 INFO] Counters tgt: 35502
+✅ Finished: vocab_from-medical-on-medical_combined
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-medical-on-medical
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 13:02:29,567 INFO] Counter vocab from -1 samples.
+[2025-07-18 13:02:29,567 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 13:02:35,255 INFO] Counters src: 28035
+[2025-07-18 13:02:35,256 INFO] Counters tgt: 29433
+✅ Finished: vocab_from-medical-on-medical
+
+[2025-07-18 12:30:24] Building vocab: vocab_from-medical_combined-on-medical_combined
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:47: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, dim=0):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sparse_activations.py:67: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:396: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(self, u, x, bias, init=None, mask_h=None):
+/home/pourmost/.conda/envs/BPE/lib/python3.10/site-packages/onmt/modules/sru.py:445: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(self, grad_h, grad_last):
+Corpus corpus_0's weight should be given. We default it to 1 for you.
+[2025-07-18 13:02:38,574 INFO] Counter vocab from -1 samples.
+[2025-07-18 13:02:38,574 INFO] n_sample=-1: Build vocab on full datasets.
+[2025-07-18 13:12:11,569 INFO] Counters src: 57107
+[2025-07-18 13:12:11,653 INFO] Counters tgt: 55605
+✅ Finished: vocab_from-medical_combined-on-medical_combined
+

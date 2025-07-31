@@ -1,0 +1,49 @@
+📝 Starting tokenization at 2025-07-17 23:19:18
+📥 Extracting data/wmt/train.csv...
+✅ Extracted wmt/train: 12684566 sentence pairs
+🪄 Tokenizing wmt train (src → data/wmt/train.src.tok)
+12684566 data/wmt/train.src.tok
+🪄 Tokenizing wmt train (tgt → data/wmt/train.tgt.tok)
+12684566 data/wmt/train.tgt.tok
+📥 Extracting data/wmt/dev.csv...
+✅ Extracted wmt/dev: 3004 sentence pairs
+🪄 Tokenizing wmt dev (src → data/wmt/dev.src.tok)
+3004 data/wmt/dev.src.tok
+🪄 Tokenizing wmt dev (tgt → data/wmt/dev.tgt.tok)
+3004 data/wmt/dev.tgt.tok
+📥 Extracting data/wmt/test.csv...
+✅ Extracted wmt/test: 2998 sentence pairs
+🪄 Tokenizing wmt test (src → data/wmt/test.src.tok)
+2998 data/wmt/test.src.tok
+🪄 Tokenizing wmt test (tgt → data/wmt/test.tgt.tok)
+2998 data/wmt/test.tgt.tok
+📥 Extracting data/medical/train.csv...
+✅ Extracted medical/train: 248099 sentence pairs
+🪄 Tokenizing medical train (src → data/medical/train.src.tok)
+248099 data/medical/train.src.tok
+🪄 Tokenizing medical train (tgt → data/medical/train.tgt.tok)
+248099 data/medical/train.tgt.tok
+📥 Extracting data/medical/dev.csv...
+✅ Extracted medical/dev: 2000 sentence pairs
+🪄 Tokenizing medical dev (src → data/medical/dev.src.tok)
+2000 data/medical/dev.src.tok
+🪄 Tokenizing medical dev (tgt → data/medical/dev.tgt.tok)
+2000 data/medical/dev.tgt.tok
+📥 Extracting data/medical/test.csv...
+✅ Extracted medical/test: 2000 sentence pairs
+🪄 Tokenizing medical test (src → data/medical/test.src.tok)
+2000 data/medical/test.src.tok
+🪄 Tokenizing medical test (tgt → data/medical/test.tgt.tok)
+2000 data/medical/test.tgt.tok
+🪄 Tokenizing medical_combined train (src → data/medical_combined/train.src.tok)
+25369132 data/medical_combined/train.src.tok
+🪄 Tokenizing medical_combined train (tgt → data/medical_combined/train.tgt.tok)
+25369132 data/medical_combined/train.tgt.tok
+🪄 Tokenizing medical_combined dev (src → data/medical_combined/dev.src.tok)
+6008 data/medical_combined/dev.src.tok
+🪄 Tokenizing medical_combined dev (tgt → data/medical_combined/dev.tgt.tok)
+6008 data/medical_combined/dev.tgt.tok
+🪄 Tokenizing medical_combined test (src → data/medical_combined/test.src.tok)
+5996 data/medical_combined/test.src.tok
+🪄 Tokenizing medical_combined test (tgt → data/medical_combined/test.tgt.tok)
+5996 data/medical_combined/test.tgt.tok

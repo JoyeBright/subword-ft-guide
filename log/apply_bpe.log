@@ -1,0 +1,81 @@
+[2025-07-18 08:56] ✅ wmt BPE: data/wmt/train.src.tok + data/wmt/train.tgt.tok → data/wmt/train.src.tok.bpe_wmt / data/wmt/train.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/wmt/dev.src.tok + data/wmt/dev.tgt.tok → data/wmt/dev.src.tok.bpe_wmt / data/wmt/dev.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/wmt/test.src.tok + data/wmt/test.tgt.tok → data/wmt/test.src.tok.bpe_wmt / data/wmt/test.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical/train.src.tok + data/medical/train.tgt.tok → data/medical/train.src.tok.bpe_wmt / data/medical/train.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical/dev.src.tok + data/medical/dev.tgt.tok → data/medical/dev.src.tok.bpe_wmt / data/medical/dev.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical/test.src.tok + data/medical/test.tgt.tok → data/medical/test.src.tok.bpe_wmt / data/medical/test.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical_combined/train.src.tok + data/medical_combined/train.tgt.tok → data/medical_combined/train.src.tok.bpe_wmt / data/medical_combined/train.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical_combined/dev.src.tok + data/medical_combined/dev.tgt.tok → data/medical_combined/dev.src.tok.bpe_wmt / data/medical_combined/dev.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ wmt BPE: data/medical_combined/test.src.tok + data/medical_combined/test.tgt.tok → data/medical_combined/test.src.tok.bpe_wmt / data/medical_combined/test.tgt.tok.bpe_wmt
+[2025-07-18 08:56] ✅ medical BPE: data/wmt/train.src.tok + data/wmt/train.tgt.tok → data/wmt/train.src.tok.bpe_medical / data/wmt/train.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/wmt/dev.src.tok + data/wmt/dev.tgt.tok → data/wmt/dev.src.tok.bpe_medical / data/wmt/dev.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/wmt/test.src.tok + data/wmt/test.tgt.tok → data/wmt/test.src.tok.bpe_medical / data/wmt/test.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical/train.src.tok + data/medical/train.tgt.tok → data/medical/train.src.tok.bpe_medical / data/medical/train.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical/dev.src.tok + data/medical/dev.tgt.tok → data/medical/dev.src.tok.bpe_medical / data/medical/dev.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical/test.src.tok + data/medical/test.tgt.tok → data/medical/test.src.tok.bpe_medical / data/medical/test.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical_combined/train.src.tok + data/medical_combined/train.tgt.tok → data/medical_combined/train.src.tok.bpe_medical / data/medical_combined/train.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical_combined/dev.src.tok + data/medical_combined/dev.tgt.tok → data/medical_combined/dev.src.tok.bpe_medical / data/medical_combined/dev.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical BPE: data/medical_combined/test.src.tok + data/medical_combined/test.tgt.tok → data/medical_combined/test.src.tok.bpe_medical / data/medical_combined/test.tgt.tok.bpe_medical
+[2025-07-18 08:56] ✅ medical_combined BPE: data/wmt/train.src.tok + data/wmt/train.tgt.tok → data/wmt/train.src.tok.bpe_medical_combined / data/wmt/train.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/wmt/dev.src.tok + data/wmt/dev.tgt.tok → data/wmt/dev.src.tok.bpe_medical_combined / data/wmt/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/wmt/test.src.tok + data/wmt/test.tgt.tok → data/wmt/test.src.tok.bpe_medical_combined / data/wmt/test.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical/train.src.tok + data/medical/train.tgt.tok → data/medical/train.src.tok.bpe_medical_combined / data/medical/train.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical/dev.src.tok + data/medical/dev.tgt.tok → data/medical/dev.src.tok.bpe_medical_combined / data/medical/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical/test.src.tok + data/medical/test.tgt.tok → data/medical/test.src.tok.bpe_medical_combined / data/medical/test.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical_combined/train.src.tok + data/medical_combined/train.tgt.tok → data/medical_combined/train.src.tok.bpe_medical_combined / data/medical_combined/train.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical_combined/dev.src.tok + data/medical_combined/dev.tgt.tok → data/medical_combined/dev.src.tok.bpe_medical_combined / data/medical_combined/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 08:56] ✅ medical_combined BPE: data/medical_combined/test.src.tok + data/medical_combined/test.tgt.tok → data/medical_combined/test.src.tok.bpe_medical_combined / data/medical_combined/test.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/train.src.tok → data/wmt/train.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/train.tgt.tok → data/wmt/train.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/dev.src.tok → data/wmt/dev.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/dev.tgt.tok → data/wmt/dev.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/test.src.tok → data/wmt/test.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/wmt/test.tgt.tok → data/wmt/test.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/train.src.tok → data/medical/train.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/train.tgt.tok → data/medical/train.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/dev.src.tok → data/medical/dev.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/dev.tgt.tok → data/medical/dev.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/test.src.tok → data/medical/test.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical/test.tgt.tok → data/medical/test.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/train.src.tok → data/medical_combined/train.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/train.tgt.tok → data/medical_combined/train.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/dev.src.tok → data/medical_combined/dev.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/dev.tgt.tok → data/medical_combined/dev.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/test.src.tok → data/medical_combined/test.src.tok.bpe_wmt
+[2025-07-18 09:13] ✅ wmt BPE: data/medical_combined/test.tgt.tok → data/medical_combined/test.tgt.tok.bpe_wmt
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/train.src.tok → data/wmt/train.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/train.tgt.tok → data/wmt/train.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/dev.src.tok → data/wmt/dev.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/dev.tgt.tok → data/wmt/dev.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/test.src.tok → data/wmt/test.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/wmt/test.tgt.tok → data/wmt/test.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/train.src.tok → data/medical/train.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/train.tgt.tok → data/medical/train.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/dev.src.tok → data/medical/dev.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/dev.tgt.tok → data/medical/dev.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/test.src.tok → data/medical/test.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical/test.tgt.tok → data/medical/test.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/train.src.tok → data/medical_combined/train.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/train.tgt.tok → data/medical_combined/train.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/dev.src.tok → data/medical_combined/dev.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/dev.tgt.tok → data/medical_combined/dev.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/test.src.tok → data/medical_combined/test.src.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical BPE: data/medical_combined/test.tgt.tok → data/medical_combined/test.tgt.tok.bpe_medical
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/train.src.tok → data/wmt/train.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/train.tgt.tok → data/wmt/train.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/dev.src.tok → data/wmt/dev.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/dev.tgt.tok → data/wmt/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/test.src.tok → data/wmt/test.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/wmt/test.tgt.tok → data/wmt/test.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/train.src.tok → data/medical/train.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/train.tgt.tok → data/medical/train.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/dev.src.tok → data/medical/dev.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/dev.tgt.tok → data/medical/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/test.src.tok → data/medical/test.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical/test.tgt.tok → data/medical/test.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/train.src.tok → data/medical_combined/train.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/train.tgt.tok → data/medical_combined/train.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/dev.src.tok → data/medical_combined/dev.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/dev.tgt.tok → data/medical_combined/dev.tgt.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/test.src.tok → data/medical_combined/test.src.tok.bpe_medical_combined
+[2025-07-18 09:13] ✅ medical_combined BPE: data/medical_combined/test.tgt.tok → data/medical_combined/test.tgt.tok.bpe_medical_combined
