@@ -1,0 +1,7 @@
+Config,SharedFreq,BaseOnlyFreq,TargetOnlyFreq,BaseOverlap(%),TargetReuse(%),NewDomainTokenCount,TopDomainTokens
+vocab_from-wmt-on-medical_combined.de,276562454,0,12191,100.0,100.0,0,
+vocab_from-medical_combined-on-medical_combined.de,264738499,11823955,44688332,95.72,85.56,15077,"Durchstechflasche(167212), EMEA(156292), Injektion(149048), verabreicht(148335), Filmtabletten(145333), Inverkehrbringen(114640), Verabreichung(111420), Einnehmen(108609), Insulin(104401), Mikrogramm(99232)"
+vocab_from-wmt-on-medical.de,250170385,26392069,238,90.46,100.0,0,
+vocab_from-medical-on-medical_combined.de,215588227,60974227,47536368,77.95,81.93,14157,"Durchstechflasche(162401), EMEA(156292), verabreicht(148335), Injektion(147979), Filmtabletten(144304), Inverkehrbringen(114640), Verabreichung(111420), Einnehmen(108609), Insulin(104401), -2@@(103581)"
+vocab_from-medical-on-wmt.de,215588227,60974227,6472929,77.95,97.09,11804,"-2@@(83148), olitik(39383), Break@@(39276), Inv@@(37363), tl@@(34506), aub@@(33173), -C@@(32347), -H@@(32289), amb@@(31070), Unterneh@@(30076)"
+vocab_from-medical-on-medical.de,215194605,61367849,803192,77.81,99.63,13559,"Durchstechflasche(3175), EMEA(3050), verabreicht(2896), Injektion(2888), Filmtabletten(2824), Inverkehrbringen(2235), Verabreichung(2175), Einnehmen(2123), Insulin(2039), Mikrogramm(1940)"

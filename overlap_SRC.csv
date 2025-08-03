@@ -1,0 +1,7 @@
+Config,SharedFreq,BaseOnlyFreq,TargetOnlyFreq,BaseOverlap(%),TargetReuse(%),NewDomainTokenCount,TopDomainTokens
+vocab_from-wmt-on-medical_combined.en,268418677,0,12720,100.0,100.0,0,
+vocab_from-medical_combined-on-medical_combined.en,262015768,6402909,32320045,97.61,89.02,14300,"syringe(169477), IU(153895), placebo(146511), film-coated(136167), pre-filled(129167), hepatic(113201), ritonavir(94010), micrograms(92314), blister(91437), CHMP(86435)"
+vocab_from-wmt-on-medical.en,243446364,24972313,248,90.7,100.0,0,
+vocab_from-medical-on-medical_combined.en,222887741,45530936,34403384,83.04,86.63,14289,"syringe(169477), IU(153895), placebo(146511), film-coated(136167), pre-filled(129167), sted(122561), hepatic(113304), ritonavir(94010), micrograms(92314), blister(91437)"
+vocab_from-medical-on-wmt.en,222887673,45531004,4021199,83.04,98.23,11736,"sted(121121), vate(58855), Engli@@(50929), ady@@(38358), itch@@(38029), chool(35478), Chri@@(34043), dex@@(32301), reser@@(27925), ayer(26604)"
+vocab_from-medical-on-medical.en,222364421,46054256,594267,82.84,99.73,13022,"syringe(3312), IU(3005), placebo(2862), film-coated(2665), pre-filled(2527), hepatic(2214), ritonavir(1838), micrograms(1804), blister(1788), CHMP(1691)"
