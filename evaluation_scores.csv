@@ -1,0 +1,8 @@
+Config ID,Config Name,BPE Model Used,Vocabulary Source,Fine-tune Dataset + BPE,Test Set Used,BLEU,COMET,CO2 (g),Time (s)
+C1,vocab_from-wmt-on-wmt,wmt,wmt,"medical (BPE: wmt)",test.src.tok.bpe_wmt,53.6,0.8443,1658.69,27758
+C2,vocab_from-medical_combined-on-wmt,wmt,medical_combined,"medical (BPE: wmt)",test.src.tok.bpe_wmt,53.4,0.8462,1198.66,18983
+C3,vocab_from-medical-on-wmt,wmt,medical,"medical (BPE: wmt)",test.src.tok.bpe_wmt,51.7,0.8436,907.24,14379
+C4,vocab_from-wmt-on-medical,medical,wmt,"medical (BPE: medical)",test.src.tok.bpe_medical,46.6,0.7922,723.94,11493
+C5,vocab_from-medical_combined-on-medical,medical,medical_combined,"medical (BPE: medical)",test.src.tok.bpe_medical,53.1,0.8423,729.04,11744
+C6,vocab_from-medical-on-medical,medical,medical,"medical (BPE: medical)",test.src.tok.bpe_medical,54.8,0.8400,1587.41,34020
+C7,vocab_from-medical_combined-on-medical_combined,medical_combined,medical_combined,"medical (BPE: medical_combined)",test.src.tok.bpe_medical_combined,53.2,0.8459,543.84,11281
