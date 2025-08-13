@@ -6,11 +6,10 @@ This repository contains the code and data for our RANLP 2025 paper, which syste
 
 ## Authors
 
-- **Javad Pourmostafa Roshan Sharami** – Department of Cognitive Science & Artificial Intelligence, Tilburg University, The Netherlands  
-  Email: [j.pourmostafa@tilburguniversity.edu](mailto:j.pourmostafa@tilburguniversity.edu)
+**Javad Pourmostafa Roshan Sharami**, **Dimitar Shterionov**, **Pieter Spronck**  
+Department of Cognitive Science & Artificial Intelligence, Tilburg University, The Netherlands  
 
-- **Dimitar Shterionov** – Department of Cognitive Science & Artificial Intelligence, Tilburg University, The Netherlands  
-  Email: [d.shterionov@tilburguniversity.edu](mailto:d.shterionov@tilburguniversity.edu)
-
-- **Pieter Spronck** – Department of Cognitive Science & Artificial Intelligence, Tilburg University, The Netherlands  
-  Email: [p.spronck@tilburguniversity.edu](mailto:p.spronck@tilburguniversity.edu)
+Emails:  
+- [j.pourmostafa@tilburguniversity.edu](mailto:j.pourmostafa@tilburguniversity.edu)  
+- [d.shterionov@tilburguniversity.edu](mailto:d.shterionov@tilburguniversity.edu)  
+- [p.spronck@tilburguniversity.edu](mailto:p.spronck@tilburguniversity.edu)
