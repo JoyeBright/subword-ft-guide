@@ -79,7 +79,7 @@ clean:
 
 # Show help
 help:
-	@echo "$(YELLOW)Subword Fine-tuning Guide - Makefile$(NC)"
+	@echo "$(YELLOW)Subword Fine-tuning - Makefile$(NC)"
 	@echo ""
 	@echo "$(GREEN)Available targets:$(NC)"
 	@echo "  $(YELLOW)all$(NC)        - Run complete pipeline (BPE → Vocab → Apply BPE → Train → Evaluate)"
