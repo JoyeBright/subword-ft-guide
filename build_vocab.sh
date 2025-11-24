@@ -24,7 +24,7 @@ build_vocab () {
   tgt_file="${BPE_DATA_DIR}/${data_source}/train.tgt.tok.bpe_${bpe_model}"
   config_path="${CONFIG_DIR}/${config_name}.yaml"
 
-  echo "🧾 Creating vocab config: $config_name"
+  echo "Creating vocab config: $config_name"
   cat > "$config_path" <<EOF
 save_data: "${WRITTEN}/${config_name}"
 
@@ -44,7 +44,7 @@ skip_empty_level: silent
 n_sample: -1
 EOF
 
-  echo "⚙️ Building vocab: $config_name"
+  echo "Building vocab: $config_name"
   {
     echo "[$TIMESTAMP] Building vocab: $config_name"
     if onmt_build_vocab -config "$config_path"; then
