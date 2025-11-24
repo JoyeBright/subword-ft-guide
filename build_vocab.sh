@@ -48,9 +48,9 @@ EOF
   {
     echo "[$TIMESTAMP] Building vocab: $config_name"
     if onmt_build_vocab -config "$config_path"; then
-      echo "✅ Finished: $config_name"
+      echo "Finished: $config_name"
     else
-      echo "❌ Failed: $config_name"
+      echo "Failed: $config_name"
     fi
     echo ""
   } >> "$LOG_FILE" 2>&1
@@ -65,6 +65,6 @@ build_vocab "medical" "medical_combined"
 build_vocab "medical" "medical"
 build_vocab "medical_combined" "medical_combined"
 
-echo "✅ All vocabulary configs created in: $CONFIG_DIR"
-echo "📦 Vocabularies saved to: $VOCAB_DIR"
-echo "🪵 Log written to: $LOG_FILE"
+echo "All vocabulary configs created in: $CONFIG_DIR"
+echo "Vocabularies saved to: $VOCAB_DIR"
+echo "Log written to: $LOG_FILE"
