@@ -52,8 +52,8 @@ for CONFIG in "${CONFIGS[@]}"; do
   TGT_FILE="${TEST_TGT_MAP[$BPE_MODEL]}"
   PRED_FILE="$PRED_DIR/pred_${ID}"
 
-  echo "🔍 $ID: Using model $MODEL_PATH" | tee "$LOG_FILE"
-  echo "🧪 Test set: $SRC_FILE" | tee -a "$LOG_FILE"
+  echo "$ID: Using model $MODEL_PATH" | tee "$LOG_FILE"
+  echo "Test set: $SRC_FILE" | tee -a "$LOG_FILE"
 
   # Create YAML config
   cat <<EOF > "$YAML_PATH"
@@ -68,7 +68,7 @@ verbose: true
 report_time: true
 EOF
 
-  echo "🚀 Translating $ID..." | tee -a "$LOG_FILE"
+  echo "Translating $ID..." | tee -a "$LOG_FILE"
   onmt_translate -config "$YAML_PATH" 2>&1 | tee -a "$LOG_FILE"
 
   DETOK="$PRED_FILE.detok"
@@ -98,11 +98,11 @@ EOF
   --quiet > "$EVAL_LOG_DIR/${ID}_chrf_sentences.txt"
 
   if [[ $? -ne 0 ]]; then
-      echo "❌ sacreBLEU failed for $ID. See $EVAL_LOG_DIR/${ID}_sacrebleu.txt" | tee -a "$LOG_FILE"
+      echo "sacreBLEU failed for $ID. See $EVAL_LOG_DIR/${ID}_sacrebleu.txt" | tee -a "$LOG_FILE"
       BLEU="N/A"
   else
       BLEU=$(jq -r '.[] | select(.name=="BLEU") | .score' "$EVAL_LOG_DIR/${ID}_sacrebleu.txt")
-      echo "✅ sacreBLEU done. BLEU: $BLEU" | tee -a "$LOG_FILE"
+      echo "sacreBLEU done. BLEU: $BLEU" | tee -a "$LOG_FILE"
   fi
 
   echo "🔹 Running COMET for $ID..." | tee -a "$LOG_FILE"
@@ -115,11 +115,11 @@ EOF
     > "$EVAL_LOG_DIR/${ID}_comet.txt" 2>&1
 
   if [[ $? -ne 0 ]]; then
-    echo "❌ COMET CLI failed for $ID." | tee -a "$LOG_FILE"
+    echo "COMET CLI failed for $ID." | tee -a "$LOG_FILE"
     COMET="N/A"
   else
     COMET=$(tail -n 1 "$EVAL_LOG_DIR/${ID}_comet.txt" | grep -Eo 'score: [0-9.]+' | awk '{print $2}')
-    echo "📈 COMET: $COMET" | tee -a "$LOG_FILE"
+    echo "COMET: $COMET" | tee -a "$LOG_FILE"
   fi
 
   CSV_PATH="$ROOT/CO2/${ID}_${NAME}/emissions.csv"
@@ -130,4 +130,4 @@ EOF
   echo "$ID,$NAME,$BPE_MODEL,$VOC_SRC,\"$FT_DESC\",$(basename "$SRC_FILE"),$BLEU,$COMET,$CO2,$TIME" >> "$OUTPUT_CSV"
 done
 
-echo "✅ All evaluations complete. Results saved to $OUTPUT_CSV"
+echo "All evaluations complete. Results saved to $OUTPUT_CSV"
