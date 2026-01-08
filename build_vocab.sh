@@ -56,6 +56,7 @@ EOF
   } >> "$LOG_FILE" 2>&1
 }
 
+
 # === Build all 7 vocab configs ===
 build_vocab "wmt" "wmt"
 build_vocab "wmt" "medical_combined"
