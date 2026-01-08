@@ -179,10 +179,10 @@ with open("$LOG_FILE", "a") as f:
     f.write("--- STDERR ---\n")
     f.write(ret.stderr + "\n")
     if ret.returncode != 0:
-        f.write("❌ Training failed for $CONFIG_NAME\n")
+        f.write("Training failed for $CONFIG_NAME\n")
     else:
-        f.write("✅ Training completed for $CONFIG_NAME\n")
+        f.write("Training completed for $CONFIG_NAME\n")
 END
 done
 
-echo "✅ All trainings completed and logged."
+echo "All trainings completed and logged."
